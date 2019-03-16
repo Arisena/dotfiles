@@ -1,5 +1,6 @@
 name = "" ; problem = "" ; note = ""
 
+--{{{Question Asking Part
 io.write("Name: ")
 name = io.read()
 
@@ -8,12 +9,12 @@ problem = io.read()
 
 io.write("Note: ")
 note = io.read()
+--}}}
 
+--{{{File Writing Part
 file = io.open(os.date("%a%b%d,%H%M%S"), "w")
 file:write("Name: ", name, "\n")
 file:write("Problem: ", problem, "\n")
 file:write("Notes: ", note)
 file:close()
-
-file = io.open("", "w")
-file:close()
+--}}}
