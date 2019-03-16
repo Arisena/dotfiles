@@ -23,14 +23,16 @@ while start == 'yes' or start == 'y' do
 	y = io.read()
 
 	--output part, prints each part on a different line
-	io.write(x, ' and ', y, "\n"
+	io.write(x, ' and ', y, "\n")
 	io.write(x, ' plus ', y, ' equals ', x + y, "\n")
 	io.write(x, ' minus ', y, '  equals ', x - y, "\n")
 	io.write(x, ' multiplied by ', y, ' equals ', x * y, "\n")
 	io.write(x, ' divided by ', y, ' equals ', x / y, "\n")
+	io.write("Again? ")
 
 	start = ""
-
+	
+	--output current math data to a file called 'math-history'
 	file = io.open("math-history", "a")
 	file:write("---- ", os.date("%a, %b %d,%H:%M:%S"), " ----\n")
 	file:write("Name: ", name, "\n")
@@ -39,7 +41,7 @@ while start == 'yes' or start == 'y' do
 	file:write("Subtration: ", x - y, "\n")
 	file:write("Multiplication: ", x * y, "\n")
 	file:write("Division: ", x / y, "\n")
-	file:write("-------------------------\n")
+	file:write("------------------------------\n")
 	file:close()
 
 	--prompt user if they would like to keep going
@@ -47,7 +49,7 @@ while start == 'yes' or start == 'y' do
 		start = io.read()
 		if start == 'exit' then break end
 		if start ~= 'y' and start ~= 'yes' and start ~= 'n' and start ~= 'no' then
-			io.write("Again?\n")
+			io.write("Again?")
 		end
 	end
 end
