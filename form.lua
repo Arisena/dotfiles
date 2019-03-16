@@ -18,6 +18,6 @@ note = io.read()
 file = io.open(os.date("%a%b%d,%H%M%S"), "w")
 file:write("Name: ", name, "\n")
 file:write("Problem: ", problem, "\n")
-file:write("Notes: ", note)
+file:write("Notes: ", note, "\n")
 file:close()
 --}}}
