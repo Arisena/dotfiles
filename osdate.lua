@@ -20,4 +20,3 @@
 --]]
 print(os.date("%a,%b %d"))
 print(os.date("%X"))
-
