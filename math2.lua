@@ -14,6 +14,7 @@ while start ~= 'yes' and start ~= 'y' and start ~= 'no' and start ~= 'n' do
 	if start == 'exit' then break end
 end
 
+--{{{Math Portion
 while start == 'yes' or start == 'y' do
 	--take input for both numbers
 	io.write("Give me x and y:\n")
@@ -33,6 +34,7 @@ while start == 'yes' or start == 'y' do
 		end
 	end
 end
+--}}}
 
 io.write('Goodbye\n' , os.date("EXIT TIME: %H:%M:%S\n"))
 return 0
