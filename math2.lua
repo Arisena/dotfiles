@@ -1,4 +1,4 @@
---Math in Lua version 2 ; Created by Ari
+--Math in Lua version 2 ; Created by Ari ; Now on GitHub
 
 start = "" ; x = 0 ; y = 0
 
