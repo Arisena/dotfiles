@@ -1,3 +1,5 @@
+--Form : Version 2 : Created by Ari
+
 name = "" ; problem = "" ; note = ""
 
 --{{{Question Asking Part
@@ -12,6 +14,7 @@ note = io.read()
 --}}}
 
 --{{{File Writing Part
+--this part writes all the variable to a file
 file = io.open(os.date("%a%b%d,%H%M%S"), "w")
 file:write("Name: ", name, "\n")
 file:write("Problem: ", problem, "\n")
