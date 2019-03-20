@@ -15,9 +15,11 @@ note = io.read()
 
 --{{{File Writing Part
 --this part writes all the variable to a file
-file = io.open(os.date("%a%b%d,%H%M%S"), "w")
+file = io.open("Problem Form", "w")
+file:write("Start:")
 file:write("Name: ", name, "\n")
 file:write("Problem: ", problem, "\n")
 file:write("Notes: ", note, "\n")
+file:write("End:")
 file:close()
 --}}}
