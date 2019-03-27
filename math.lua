@@ -1,4 +1,4 @@
---Math in Lua version 2.5 ; Created by Ari ; Now on GitHub
+--Math in Lua version 2.9 ; Created by Ari ; Now on GitHub
 
 start = "" ; x = 0 ; y = 0
 
@@ -43,6 +43,8 @@ while start == 'yes' or start == 'y' do
 	file:write("Division: ", x / y, "\n")
 	file:write("------------------------------\n")
 	file:close()
+
+	os.rename("math-history", name .. os.date(": %a, %b %d,%H:%M:%S"))
 
 	--prompt user if they would like to keep going
 	while start ~= 'y' and start ~= 'yes' and start ~= 'n' and start ~= 'no' do
