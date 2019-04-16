@@ -11,5 +11,5 @@ elif [ "$zorkversion" = "zork2" ]; then
 elif [ "$zorkversion" = "zork3" ]; then
 	bash zork3
 else
-		echo "NO VALID INPUT"
+		echo "Try Again...."
 fi
