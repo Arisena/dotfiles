@@ -1,5 +1,3 @@
-# random-stuff
+# mah-stuff
 
-Collection of random things
-
-Programs I have written, or linux configuration files
+Linux config files and the like
