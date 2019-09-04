@@ -1,3 +1,3 @@
 # mah-stuff
 
-Linux config files and the like
+Backup of Linux config files and other stuff that I decide to put in here
