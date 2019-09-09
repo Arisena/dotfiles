@@ -1,6 +1,0 @@
-04/09/2019-12:15:01:Info:A new metadata plugin was added, gmpc has purged all failed hits from the cache
-04/09/2019-12:15:22:Info:Connected to mpd
-04/09/2019-12:15:32:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>
-04/09/2019-12:15:43:Info:Disconnected from mpd
-04/09/2019-12:15:44:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>
-04/09/2019-12:15:44:Info:Connected to mpd

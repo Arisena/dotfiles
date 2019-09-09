@@ -1,4 +1,0 @@
-[Added Associations]
-video/x-matroska=vlc.desktop;org.gnome.Totem.desktop;
-application/x-ms-dos-executable=wine.desktop;
-application/pdf=org.gnome.Evince.desktop;
