@@ -1,0 +1,17 @@
+alias cp="cp -i"                                                # Confirm before overwriting something
+alias cldown='sudo rm -r ~/Downloads && mkdir ~/Downloads'
+alias spu='sudo powerpill -Syu'									# Full System Upgrade and AUR
+alias ys='yay -Syu -a'											# Yay Install
+alias pq='pacman -Q | grep --color=auto'						# Display all packages containing something in name
+alias ls='ls --color --group-directories-first --classify'
+alias term='XS=st startx'										# Start st
+alias i3='XS=i3 startx'											# Start i3
+alias gnome='XS=gnome startx'									# Start Gnome
+alias dwarf='XS=df startx'										# Start Dwarf Fortress
+alias cata='XS=cata startx'										# Start Cataclysm DDA
+alias volume='alsamixer'
+alias windon='windscribe connect chicago'						# Start Windscribe VPN
+alias windoff='windscribe disconnect'							# Stop Windscribe VPN
+alias refl='sudo reflector --verbose --country US --country Canada --age 12 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+alias upgrade='spu && sudo pkgfile -u && ys'
+alias cowrefl='cowthink -e Oo $(fortune -ac)'

@@ -1,0 +1,28 @@
+#!/bin/bash
+if  cat ~/.config/polybar/config | grep --quiet 002b36 ;
+then
+    sed -i -e "s/002b36/fdf6e3/g" ~/.config/polybar/config
+    sed -i -e "s/073642/eee8d5/g" ~/.config/polybar/config
+    sed -i -e "s/839496/657b83/g" ~/.config/polybar/config
+    sed -i -e "s/93a1a1/586e75/g" ~/.config/polybar/config
+
+    sed -i -e "s/839496/657b83/g" ~/.config/termite/config
+    sed -i -e "s/657b83/839496/g" ~/.config/termite/config
+    sed -i -e "s/002b36/fdf6e3/g" ~/.config/termite/config
+    sed -i -e "s/586e75/93a1aq/g" ~/.config/termite/config
+    sed -i -e "s/073642/eee8d5/g" ~/.config/termite/config
+else
+    sed -i -e "s/fdf6e3/002b36/g" ~/.config/polybar/config
+    sed -i -e "s/eee8d5/073642/g" ~/.config/polybar/config
+    sed -i -e "s/657b83/839496/g" ~/.config/polybar/config
+    sed -i -e "s/586e75/93a1a1/g" ~/.config/polybar/config
+
+    sed -i -e "s/657b83/839496/g" ~/.config/termite/config
+    sed -i -e "s/839496/657b83/g" ~/.config/termite/config
+    sed -i -e "s/fdf6e3/002b36/g" ~/.config/termite/config
+    sed -i -e "s/93a1aq/586e75/g" ~/.config/termite/config
+    sed -i -e "s/eee8d5/073642/g" ~/.config/termite/config
+fi
+killall -USR1 termite
+polyLaunch &> /dev/null &
+disown

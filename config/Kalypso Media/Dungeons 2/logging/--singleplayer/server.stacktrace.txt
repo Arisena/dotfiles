@@ -1,0 +1,350 @@
+﻿-1# 00:30:36.917 [Default] Info> --- Environment information ---
+                                 Machine: arch-10
+                                 Now: 2019-08-26 00:30:36 (UTC)
+                                 CurrentDirectory: /home/ari/GOG Games/Dungeons 2/game
+                                 Env.OSVersion: Unix 5.2.9.1
+                                 Env.Version: 4.0.30319.17020
+                                 MonoVersion: 3.99.0 (master/acbe5f5 Mi 29. Apr 17:57:57 CEST 2015)
+                                 Environment.GetEnvironmentVariables: XDG_SEAT=seat0 INVOCATION_ID=8c997fa36f11460d808eedd801c924fe LESS_TERMCAP_ue=[0m XS=i3 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus TERM=xterm-termite MONO_GC_PARAMS=major=marksweep-par,concurrent-sweep,nursery-size=16m WINDOWID=35651587 XDG_SESSION_TYPE=tty OLDPWD=/home/ari/GOG Games/Dungeons 2 PWD=/home/ari/GOG Games/Dungeons 2/game XDG_VTNR=1 VTE_VERSION=5602 XDG_SESSION_ID=1 LANG=en_US.UTF-8 MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XAUTHORITY=/home/ari/.Xauthority DISPLAY=:0 LESS=-r COLORTERM=truecolor WINDOWPATH=1 PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl XDG_SESSION_CLASS=user JOURNAL_STREAM=9:22097 MAIL=/var/spool/mail/ari LESS_TERMCAP_so=[01;47;34m GTK_MODULES=canberra-gtk-module I3SOCK=/run/user/1000/i3/ipc-socket.3252 USER=ari HOME=/home/ari LESS_TERMCAP_se=[0m SHLVL=4 XDG_RUNTIME_DIR=/run/user/1000 LOGNAME=ari SHELL=/bin/zsh LESS_TERMCAP_me=[0m LESS_TERMCAP_md=[01;32m LESS_TERMCAP_mb=[01;32m _WAPI_PROCESS_HANDLE_OFFSET=2 LESS_TERMCAP_us=[01;36m MONO_DISABLE_SHARED_AREA=true
+                                 Version: v1.6.1.23-@093c890
+-1# 00:30:36.919 [Default] Info> Hello world (of dedicated server)!
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	MainClass.Main() in :0
+-1# 00:30:36.919 [Default] Info> cmd args:  --logfolder --singleplayer --client-pid 6907
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	MainClass.Main() in :0
+-1# 00:30:36.920 [Default] Info> Config loaded: <Entity ID 0>
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	ConfigManager.LoadAllConfig() in :0
+                                 	MainClass.Main() in :0
+-1# 00:30:37.261 [Default] Info> Param --client-pid: 6907
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	MainClass.Main() in :0
+-1# 00:30:37.262 [Default] Info> Entering main loop...
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	MainClass.Main() in :0
+-1# 00:30:37.406 [Default] Info> Config loaded:
+                                 graphic.resolution = 1366x768
+                                 graphic.quality.filtering = Anisotropicx8
+                                 language = en
+                                 campaign.horde.progress =
+                                 campaign.undead.progress =
+                                 showcontinue = False
+                                 <Entity ID 0>
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	ConfigManager.LoadAllConfig() in :0
+                                 	NetworkServer.ReloadConfig() in :0
+                                 	MonoMethod.InternalInvoke() in :0
+                                 	MonoMethod.Invoke() in :0
+                                 	MethodBase.Invoke() in :0
+                                 	RPCTargetInfoServer.Handle() in :0
+                                 	RpcPacket.Handle() in :0
+                                 	NetworkServer.Handle() in :0
+                                 	NetworkServer.Update() in :0
+                                 	MainClass.Main() in :0
+-1# 00:30:40.919 [Default] Info> Shoutdown server because we left main loop...
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	MainClass.Main() in :0
+-1# 00:31:47.345 [Default] Info> --- Environment information ---
+                                 Machine: arch-10
+                                 Now: 2019-08-26 00:31:47 (UTC)
+                                 CurrentDirectory: /home/ari/GOG Games/Dungeons 2/game
+                                 Env.OSVersion: Unix 5.2.9.1
+                                 Env.Version: 4.0.30319.17020
+                                 MonoVersion: 3.99.0 (master/acbe5f5 Mi 29. Apr 17:57:57 CEST 2015)
+                                 Environment.GetEnvironmentVariables: XDG_SEAT=seat0 INVOCATION_ID=8c997fa36f11460d808eedd801c924fe LESS_TERMCAP_ue=[0m XS=i3 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus TERM=xterm-termite MONO_GC_PARAMS=major=marksweep-par,concurrent-sweep,nursery-size=16m WINDOWID=35651587 XDG_SESSION_TYPE=tty OLDPWD=/home/ari/GOG Games/Dungeons 2 PWD=/home/ari/GOG Games/Dungeons 2/game XDG_VTNR=1 VTE_VERSION=5602 XDG_SESSION_ID=1 LANG=en_US.UTF-8 MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins XAUTHORITY=/home/ari/.Xauthority DISPLAY=:0 LESS=-r COLORTERM=truecolor WINDOWPATH=1 PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl XDG_SESSION_CLASS=user JOURNAL_STREAM=9:22097 MAIL=/var/spool/mail/ari LESS_TERMCAP_so=[01;47;34m GTK_MODULES=canberra-gtk-module I3SOCK=/run/user/1000/i3/ipc-socket.3252 USER=ari HOME=/home/ari LESS_TERMCAP_se=[0m SHLVL=4 XDG_RUNTIME_DIR=/run/user/1000 LOGNAME=ari SHELL=/bin/zsh LESS_TERMCAP_me=[0m LESS_TERMCAP_md=[01;32m LESS_TERMCAP_mb=[01;32m _WAPI_PROCESS_HANDLE_OFFSET=2 LESS_TERMCAP_us=[01;36m MONO_DISABLE_SHARED_AREA=true
+                                 Version: v1.6.1.23-@093c890
+-1# 00:31:47.347 [Default] Info> Hello world (of dedicated server)!
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	MainClass.Main() in :0
+-1# 00:31:47.347 [Default] Info> cmd args:  --logfolder --singleplayer --client-pid 7009
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	MainClass.Main() in :0
+-1# 00:31:47.349 [Default] Info> Config loaded: <Entity ID 0>
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	ConfigManager.LoadAllConfig() in :0
+                                 	MainClass.Main() in :0
+-1# 00:31:47.644 [Default] Info> Param --client-pid: 7009
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	MainClass.Main() in :0
+-1# 00:31:47.645 [Default] Info> Entering main loop...
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	MainClass.Main() in :0
+-1# 00:31:48.247 [Default] Info> Config loaded:
+                                 graphic.resolution = 1366x768
+                                 graphic.quality.filtering = Anisotropicx8
+                                 language = en
+                                 campaign.horde.progress =
+                                 campaign.undead.progress =
+                                 showcontinue = False
+                                 debug.enablecheats = True
+                                 <Entity ID 0>
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	ConfigManager.LoadAllConfig() in :0
+                                 	NetworkServer.ReloadConfig() in :0
+                                 	MonoMethod.InternalInvoke() in :0
+                                 	MonoMethod.Invoke() in :0
+                                 	MethodBase.Invoke() in :0
+                                 	RPCTargetInfoServer.Handle() in :0
+                                 	RpcPacket.Handle() in :0
+                                 	NetworkServer.Handle() in :0
+                                 	NetworkServer.Update() in :0
+                                 	MainClass.Main() in :0
+-1# 00:31:52.411 [Default] Info> Booting (server) SceneName 'banish'; PlayerCount '1'; SavegameName ''; <Entity ID 0>
+                               > LogBuffer.AddLogInternal() in :0
+                                 	LogBuffer.LogInfo() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	LoggingBase`1.Info() in :0
+                                 	Utils.LogBoot() in :0
+                                 	GameLogicServer.BootServer() in :0
+                                 	NetworkServer.StartGame() in :0
+                                 	MonoMethod.InternalInvoke() in :0
+                                 	MonoMethod.Invoke() in :0
+                                 	MethodBase.Invoke() in :0
+                                 	RPCTargetInfoServer.Handle() in :0
+                                 	RpcPacket.Handle() in :0
+                                 	NetworkServer.Handle() in :0
+                                 	NetworkServer.Update() in :0
+                                 	MainClass.Main() in :0
+0# 00:31:55.853 [Default] Info> Memory firstUpdateAfterBoot in mb: 54 - 43 GC collected <Entity ID 0>
+                              > LogBuffer.AddLogInternal() in :0
+                                	LogBuffer.LogInfo() in :0
+                                	LoggingBase`1.Info() in :0
+                                	LoggingBase`1.Info() in :0
+                                	Utils.DumpMemoryInfo() in :0
+                                	NetworkServer.Update() in :0
+                                	MainClass.Main() in :0
+0# 00:31:55.853 [Default] Info> Resetting NetworkShared.MemoryStream because length > 64kb: 131072 <Entity ID 0>
+                              > LogBuffer.AddLogInternal() in :0
+                                	LogBuffer.LogInfo() in :0
+                                	LoggingBase`1.Info() in :0
+                                	LoggingBase`1.Info() in :0
+                                	NetworkShared.Update() in :0
+                                	RakNetNetwork.Update() in :0
+                                	RakNetServer.Update() in :0
+                                	NetworkServer.Update() in :0
+                                	MainClass.Main() in :0
+195# 00:32:46.961 [Default] Info> Config loaded:
+                                  graphic.resolution = 1366x768
+                                  graphic.quality.filtering = Anisotropicx4
+                                  language = en
+                                  campaign.horde.progress =
+                                  campaign.undead.progress =
+                                  showcontinue = False
+                                  debug.enablecheats = True
+                                  graphic.quality.preset = Medium
+                                  graphic.quality.ssao = Off
+                                  graphic.quality.shadows = Low
+                                  graphic.quality.effects = Medium
+                                  graphic.quality.effects.parallaxmapping = False
+                                  <Entity ID 0>
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	ConfigManager.LoadAllConfig() in :0
+                                  	NetworkServer.ReloadConfig() in :0
+                                  	MonoMethod.InternalInvoke() in :0
+                                  	MonoMethod.Invoke() in :0
+                                  	MethodBase.Invoke() in :0
+                                  	RPCTargetInfoServer.Handle() in :0
+                                  	RpcPacket.Handle() in :0
+                                  	NetworkServer.Handle() in :0
+                                  	NetworkServer.Update() in :0
+                                  	MainClass.Main() in :0
+195# 00:32:55.926 [Default] Info> Config loaded:
+                                  graphic.resolution = 1366x768
+                                  graphic.quality.filtering = Trilinear
+                                  language = en
+                                  campaign.horde.progress =
+                                  campaign.undead.progress =
+                                  showcontinue = False
+                                  debug.enablecheats = True
+                                  graphic.quality.preset = Low
+                                  graphic.quality.ssao = Off
+                                  graphic.quality.shadows = Off
+                                  graphic.quality.effects = Low
+                                  graphic.quality.effects.parallaxmapping = False
+                                  graphic.quality.aa = None
+                                  graphic.quality.glow = Off
+                                  graphic.quality.effects.softparticles = False
+                                  graphic.quality.effects.terraindetails = False
+                                  <Entity ID 0>
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	ConfigManager.LoadAllConfig() in :0
+                                  	NetworkServer.ReloadConfig() in :0
+                                  	MonoMethod.InternalInvoke() in :0
+                                  	MonoMethod.Invoke() in :0
+                                  	MethodBase.Invoke() in :0
+                                  	RPCTargetInfoServer.Handle() in :0
+                                  	RpcPacket.Handle() in :0
+                                  	NetworkServer.Handle() in :0
+                                  	NetworkServer.Update() in :0
+                                  	MainClass.Main() in :0
+539# 00:33:20.623 [Default] Info> Memory before PerformSave in mb: 55 - 45 GC collected <Entity ID 0>
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	Utils.DumpMemoryInfo() in :0
+                                  	GameLogicServer.Update() in :0
+                                  	NetworkServer.Update() in :0
+                                  	MainClass.Main() in :0
+539# 00:33:20.681 [Default] Info> GameLogicServer.PerformSave: autosave
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	GameLogicServer.PerformSave() in :0
+                                  	GameLogicServer.Update() in :0
+                                  	NetworkServer.Update() in :0
+                                  	MainClass.Main() in :0
+539# 00:33:24.004 [Default] Info> Memory after PerformSave in mb: 63 - 58 GC collected <Entity ID 0>
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	Utils.DumpMemoryInfo() in :0
+                                  	GameLogicServer.Update() in :0
+                                  	NetworkServer.Update() in :0
+                                  	MainClass.Main() in :0
+539# 00:33:24.005 [Default] Info> Resetting NetworkShared.MemoryStream because length > 64kb: 262144 <Entity ID 0>
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	NetworkShared.Update() in :0
+                                  	RakNetNetwork.Update() in :0
+                                  	RakNetServer.Update() in :0
+                                  	NetworkServer.Update() in :0
+                                  	MainClass.Main() in :0
+539# 00:33:24.007 [Default] Info> Config loaded:
+                                  graphic.resolution = 1366x768
+                                  graphic.quality.filtering = Trilinear
+                                  language = en
+                                  campaign.horde.progress =
+                                  campaign.undead.progress =
+                                  showcontinue = True
+                                  debug.enablecheats = True
+                                  graphic.quality.preset = Low
+                                  graphic.quality.ssao = Off
+                                  graphic.quality.shadows = Off
+                                  graphic.quality.effects = Low
+                                  graphic.quality.effects.parallaxmapping = False
+                                  graphic.quality.aa = None
+                                  graphic.quality.glow = Off
+                                  graphic.quality.effects.softparticles = False
+                                  graphic.quality.effects.terraindetails = False
+                                  <Entity ID 0>
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	ConfigManager.LoadAllConfig() in :0
+                                  	NetworkServer.ReloadConfig() in :0
+                                  	MonoMethod.InternalInvoke() in :0
+                                  	MonoMethod.Invoke() in :0
+                                  	MethodBase.Invoke() in :0
+                                  	RPCTargetInfoServer.Handle() in :0
+                                  	RpcPacket.Handle() in :0
+                                  	NetworkServer.Handle() in :0
+                                  	NetworkServer.Update() in :0
+                                  	MainClass.Main() in :0
+541# 00:33:24.213 [Default] Info> Memory before ShutdownServer in mb: 58 - 57 GC collected <Entity ID 0>
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	Utils.DumpMemoryInfo() in :0
+                                  	GameLogicServer.ShutdownServer() in :0
+                                  	NetworkServer.DoShutdownServer() in :0
+                                  	NetworkServer.ShutdownServer() in :0
+                                  	MonoMethod.InternalInvoke() in :0
+                                  	MonoMethod.Invoke() in :0
+                                  	MethodBase.Invoke() in :0
+                                  	RPCTargetInfoServer.Handle() in :0
+                                  	RpcPacket.Handle() in :0
+                                  	NetworkServer.Handle() in :0
+                                  	NetworkServer.Update() in :0
+                                  	MainClass.Main() in :0
+541# 00:33:24.347 [Default] Info> Memory after ShutdownServer in mb: 57 - 55 GC collected <Entity ID 0>
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	Utils.DumpMemoryInfo() in :0
+                                  	GameLogicServer.ShutdownServer() in :0
+                                  	NetworkServer.DoShutdownServer() in :0
+                                  	NetworkServer.ShutdownServer() in :0
+                                  	MonoMethod.InternalInvoke() in :0
+                                  	MonoMethod.Invoke() in :0
+                                  	MethodBase.Invoke() in :0
+                                  	RPCTargetInfoServer.Handle() in :0
+                                  	RpcPacket.Handle() in :0
+                                  	NetworkServer.Handle() in :0
+                                  	NetworkServer.Update() in :0
+                                  	MainClass.Main() in :0
+541# 00:33:24.410 [Default] Info> Shoutdown server because we left main loop...
+                                > LogBuffer.AddLogInternal() in :0
+                                  	LogBuffer.LogInfo() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	LoggingBase`1.Info() in :0
+                                  	MainClass.Main() in :0
