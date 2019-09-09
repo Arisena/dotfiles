@@ -64,8 +64,6 @@ alias gnome='XS=gnome startx'									# Start Gnome
 alias dwarf='XS=df startx'										# Start Dwarf Fortress
 alias cata='XS=cata startx'										# Start Cataclysm DDA
 alias volume='alsamixer'
-alias windon='windscribe connect chicago'						# Start Windscribe VPN
-alias windoff='windscribe disconnect'							# Stop Windscribe VPN
 alias refl='sudo reflector --verbose --country US --country Canada --age 12 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 alias upgrade='sudo powerpill -Syu && sudo pkgfile -u && yay -a -Syu'
 alias cowfort='cowthink -e Oo $(fortune -ac)'
