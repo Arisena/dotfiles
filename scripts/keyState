@@ -1,0 +1,6 @@
+#!/bin/bash
+while true; do
+    read -ra arr <<< $(xset q | grep Caps)
+    echo "Caps:${arr[3]} | Num:${arr[7]} |"
+    sleep 1
+done
