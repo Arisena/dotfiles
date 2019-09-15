@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="max_elements" mtime="1563773381" type="int" value="5"/>
-	<entry name="use_primary_clipboard" mtime="1563773369" type="bool" value="false"/>
-	<entry name="save_history" mtime="1563773366" type="bool" value="false"/>
-</gconf>
