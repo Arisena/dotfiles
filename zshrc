@@ -86,7 +86,7 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 # Prompt (on left side) similar to default bash prompt, or redhat zsh prompt with colors
  #PROMPT="%(!.%{$fg[red]%}[%n: %1~]%{$reset_color%}# .%{$fg[cyan]%}[%n: %1~]%{$reset_color%}$ "
 # Maia prompt
-PROMPT="%B%{$fg[white]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[blue]%}>%B%(?.%{$fg[white]%}.%{$fg[red]%})>%{$reset_color%}%b " # Print some system information when the shell is first started
+PROMPT="%B%{$fg[white]%}%(4~|%-1~/.../%2~|%~)%u%b>%{$fg[blue]%}>%B%(?.%{$fg[white]%}.%{$fg[red]%})>%{$reset_color%}%b " # Print some system information when the shell is first started
 
 # Print a greeting message when shell is started
 echo $USER@$HOST  $(uname -srm) $(lsb_release -rcs) && acpi
