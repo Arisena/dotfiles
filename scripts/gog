@@ -32,6 +32,6 @@ case $1 in
 				echo failed input error
 				echo please provide argument 1 or 2
 				echo
-				echo 'Options : bald1 | bald2 | deadcells | dungeons 2 | gungeon | icon | neverwinter | stardew'
+				echo 'Options : bald1 | bald2 | deadcells | dungeons2 | gungeon | icon | neverwinter | stardew'
 				;;
 esac
