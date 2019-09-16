@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo mount -t cifs //172.16.3.5/NetworkShare /mnt/network -o username=ari-network,password=starwars33,uid=1000,gid=999
