@@ -69,6 +69,7 @@ alias upgrade='sudo powerpill -Syu && sudo pkgfile -u && yay -a -Syu'
 alias cowfort='cowthink -e Oo $(fortune -ac)'
 alias vpnstart='sudo protonvpn-cli -m'
 alias vpnstop='sudo protonvpn-cli -d'
+alias gitu='git add . && git commit && git push'
 
 # Theming section
 autoload -U compinit colors zcalc
