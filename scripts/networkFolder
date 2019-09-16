@@ -9,7 +9,7 @@ case $1 in
 				echo 'username:'
 				read username
 				echo 'password:'
-				read password
+				read -s password
 				sudo mount -t cifs \\\\$ip\\$folder /mnt/network -o username=$username,password=$password
 				;;
 		umount)
