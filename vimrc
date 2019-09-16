@@ -39,3 +39,5 @@ execute pathogen#infect()
 let g:airline_powerline_fonts = 1
 set laststatus=2
 let g:airline#extensions#ale#enabled = 1
+set updatetime=100
+let g:indent_guides_enable_on_vim_startup = 1
