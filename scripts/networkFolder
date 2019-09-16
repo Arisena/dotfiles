@@ -1,0 +1,16 @@
+#!/bin/bash
+
+case $1 in
+		mount)
+				echo 'ip:'
+				read ip
+				sudo mount -t cifs \\\\$ip\\NetworkShare /mnt/network -o username=ari-network,password=starwars33,uid=1000,gid=999
+				;;
+		umount)
+				sudo umount /mnt/network
+				;;
+		*)
+				echo Input Error
+				echo 'Options : mount | umount'
+				;;
+esac
