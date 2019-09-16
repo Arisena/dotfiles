@@ -164,9 +164,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-# Start i3blocks to display a workspace bar
+# Bar Config Area
 bar {
 	i3bar_command polybar
 	status_command polybar
@@ -192,6 +190,8 @@ client.urgent            #002b36 #002b36 #839496 #dc322f   #000000
 client.placeholder       #073642 #073642 #839496 #dc322f   #000000
 client.background        #ffffff
 
+# Program Assignment Area
+# -1 to Steam and Discord
 assign [class="^Steam$"] (WORKSPACE_NUMBER)
 assign [class="^discord$"] (WORKSPACE_NUMBER)
 
@@ -199,7 +199,7 @@ assign [class="^discord$"] (WORKSPACE_NUMBER)
 # title_align center
 new_window 1pixel
 
-# gaps
+# Gaps Area
 gaps inner 10
 gaps outer 0
 #smart_gaps on
