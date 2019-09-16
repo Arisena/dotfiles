@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo umount //172.16.3.5/NetworkShare
