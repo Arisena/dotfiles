@@ -6,7 +6,7 @@ case $1 in
 				read ip
 				echo 'folder:'
 				read folder
-				echo sudo mount -t cifs \\\\$ip\\$folder /mnt/network -o username=ari-network,password=starwars33,uid=1000,gid=999
+				sudo mount -t cifs \\\\$ip\\$folder /mnt/network -o username=ari-network,password=starwars33,uid=1000,gid=999
 				;;
 		umount)
 				sudo umount /mnt/network
