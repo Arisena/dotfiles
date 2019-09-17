@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo Baldurs Gate 1 or 2
-
 case $1 in
 		bald1)
 				/home/ari/GOG\ Games/Baldurs\ Gate\ Enhanced\ Edition/start.sh
@@ -28,10 +26,7 @@ case $1 in
 				/home/ari/GOG\ Games/Stardew\ Valley/start.sh
 				;;
 		*)
-				echo
 				echo failed input error
-				echo please provide argument 1 or 2
-				echo
 				echo 'Options : bald1 | bald2 | deadcells | dungeons2 | gungeon | icon | neverwinter | stardew'
 				;;
 esac
