@@ -1,0 +1,29 @@
+#!/bin/bash
+
+case $1 in
+		mountusb)
+				echo 'Device ID :'
+				read id
+				echo 'Mount Point: '
+				read mount
+				sudo mount $id $mount
+				;;
+		mountnetwork)
+				echo 'ip:'
+				read ip
+				echo 'folder:'
+				read folder
+				echo 'username:'
+				read username
+				echo 'password:'
+				read -s password
+				sudo mount -t cifs \\\\$ip\\$folder /mnt/network -o username=$username,password=$password
+				;;
+		umount)
+				sudo umount /mnt/network
+				;;
+		*)
+				echo Input Error
+				echo 'Options : mount | umount'
+				;;
+esac
