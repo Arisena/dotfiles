@@ -1,32 +1,32 @@
 #!/bin/bash
 
 case $1 in
-		bald1)
-				/home/ari/GOG\ Games/Baldurs\ Gate\ Enhanced\ Edition/start.sh
-				;;
-		bald2)
-				/home/ari/GOG\ Games/Baldurs\ Gate\ 2\ Enhanced\ Edition/start.sh
-				;;
-		deadcells)
-				/home/ari/GOG\ Games/Dead\ Cells/start.sh
-				;;
-		dungeons2)
-				/home/ari/GOG\ Games/Dungeons\ 2/start.sh
-				;;
-		gungeon)
-				/home/ari/GOG\ Games/Enter\ the\ Gungeon/start.sh
-				;;
-		icon)
-				/home/ari/GOG\ Games/Iconoclasts/start.sh
-				;;
-		neverwinter)
-				/home/ari/GOG\ Games/Neverwinter\ Nights\ Enhanced\ Edition/start.sh
-				;;
-		stardew)
-				/home/ari/GOG\ Games/Stardew\ Valley/start.sh
-				;;
-		*)
-				echo failed input error
-				echo 'Options : bald1 | bald2 | deadcells | dungeons2 | gungeon | icon | neverwinter | stardew'
-				;;
+	bald1)
+		/home/ari/GOG\ Games/Baldurs\ Gate\ Enhanced\ Edition/start.sh
+		;;
+	bald2)
+		/home/ari/GOG\ Games/Baldurs\ Gate\ 2\ Enhanced\ Edition/start.sh
+		;;
+	deadcells)
+		/home/ari/GOG\ Games/Dead\ Cells/start.sh
+		;;
+	dungeons2)
+		/home/ari/GOG\ Games/Dungeons\ 2/start.sh
+		;;
+	gungeon)
+		/home/ari/GOG\ Games/Enter\ the\ Gungeon/start.sh
+		;;
+	icon)
+		/home/ari/GOG\ Games/Iconoclasts/start.sh
+		;;
+	neverwinter)
+		/home/ari/GOG\ Games/Neverwinter\ Nights\ Enhanced\ Edition/start.sh
+		;;
+	stardew)
+		/home/ari/GOG\ Games/Stardew\ Valley/start.sh
+		;;
+	*)
+		echo failed input error
+		echo 'Options : bald1 | bald2 | deadcells | dungeons2 | gungeon | icon | neverwinter | stardew'
+		;;
 esac
