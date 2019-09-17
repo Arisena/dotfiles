@@ -2,9 +2,9 @@
 
 case $1 in
 		mountusb)
-				echo 'Device ID :'
+				echo 'Device ID:'
 				read id
-				echo 'Mount Point: '
+				echo 'Mount Point:'
 				read mount
 				sudo mount $id $mount
 				;;
@@ -20,7 +20,9 @@ case $1 in
 				sudo mount -t cifs \\\\$ip\\$folder /mnt/network -o username=$username,password=$password
 				;;
 		umount)
-				sudo umount /mnt/network
+				echo 'Unmount What:'
+				read dev
+				sudo umount $dev
 				;;
 		*)
 				echo Input Error
