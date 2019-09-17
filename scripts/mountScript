@@ -24,6 +24,6 @@ case $1 in
 				;;
 		*)
 				echo Input Error
-				echo 'Options : mount | umount'
+				echo 'Options : mountusb | mountnetwork | umount'
 				;;
 esac
