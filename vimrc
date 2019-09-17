@@ -13,8 +13,10 @@ set nocompatible
 set splitbelow splitright
 set autoindent
 set smartindent
+set noexpandtab
 set tabstop=4
-set softtabstop=4
+set softtabstop=0
+set shiftwidth=4
 set lazyredraw
 set wildmenu
 set wildmode=longest,list,full
