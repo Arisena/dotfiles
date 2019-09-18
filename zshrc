@@ -1,5 +1,5 @@
 ## Options section
-6etopt correct                                                  # Auto correct mistakes
+setopt correct                                                  # Auto correct mistakes
 setopt extendedglob                                             # Extended globbing. Allows using regular expressions with *
 setopt nocaseglob                                               # Case insensitive globbing
 setopt rcexpandparam                                            # Array expension with parameters
@@ -89,7 +89,7 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
  PROMPT="%B%{$fg[white]%}%(4~|%-1~/.../%2~|%~)%u%b>%{$fg[blue]%}>%B%(?.%{$fg[white]%}.%{$fg[red]%})>%{$reset_color%}%b " # Print some system information when the shell is first started
 ZSH_THEME="agnoster"
 # Print a greeting message when shell is started
-echo $USER@$HOST  $(uname -srm) $(lsb_release -rcs) && acpi
+echo $USER@$HOST  $(uname -srm) $(lsb_release -rcs)
 #cowthink -e Oo $(fortune -ac)
 ##neofetch
 
