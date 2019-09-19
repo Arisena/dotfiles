@@ -158,3 +158,4 @@ SAVEHIST=500
 #export VISUAL=/usr/bin/nano
 WORDCHARS=${WORDCHARS//\/[&.;]}                                 # Don't consider certain characters part of the word
 
+echo $USER@$HOST  $(uname -srm) $(lsb_release -rcs)
