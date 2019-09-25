@@ -113,6 +113,7 @@ export LESS=-r
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cp="cp -i"                                                # Confirm before overwriting something
 alias cldown='sudo rm -r ~/Downloads && mkdir ~/Downloads'
+alias clbuild='sudo rm -r ~/build && mkdir ~/build'
 alias pq='pacman -Q | grep --color=auto'						# Display all packages containing something in name
 alias ls='ls --color --group-directories-first --classify'
 alias term='XS=st startx'										# Start st
@@ -122,7 +123,7 @@ alias dwarf='XS=df startx'										# Start Dwarf Fortress
 alias cata='XS=cata startx'										# Start Cataclysm DDA
 alias volume='alsamixer'
 alias refl='sudo reflector --verbose --country US --country Canada --age 12 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
-alias upgrade='sudo powerpill -Syu && sudo pkgfile -u && yay -a -Syu'
+alias upgrade='sudo bauerbill -Syu --aur && sudo pkgfile -u'
 alias cowfort='cowthink -e Oo $(fortune -ac)'
 alias vpnstart='sudo protonvpn-cli -m'
 alias vpnstop='sudo protonvpn-cli -d'
