@@ -1,6 +1,18 @@
 #!/bin/bash
 
-case $1 in
+games=( 'bald1' 'bald2' 'deadcells' 'dungeons2' 'gungeon' 'icon' 'neverwinter' 'stardew' )
+
+echo "--Options--"
+for element in "${games[@]}"
+do
+    echo ": $element"
+done
+echo "-----------"
+
+PS3='Game: '
+read -p "Game: " game
+
+case $game in
 	bald1)
 		/home/ari/GOG\ Games/Baldurs\ Gate\ Enhanced\ Edition/start.sh
 		;;
