@@ -9,7 +9,6 @@ do
 done
 echo "-----------"
 
-PS3='Game: '
 read -p "Game: " game
 
 case $game in
