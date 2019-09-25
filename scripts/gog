@@ -10,8 +10,9 @@ done
 echo "-----------"
 
 read -p "Game: " game
+lower=${game,,}
 
-case $game in
+case $lower in
 	bald1)
 		/home/ari/GOG\ Games/Baldurs\ Gate\ Enhanced\ Edition/start.sh
 		;;
@@ -37,7 +38,6 @@ case $game in
 		/home/ari/GOG\ Games/Stardew\ Valley/start.sh
 		;;
 	*)
-		echo failed input error
-		echo 'Options : bald1 | bald2 | deadcells | dungeons2 | gungeon | icon | neverwinter | stardew'
+		echo "failed input error"
 		;;
 esac
