@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 games=( 'bald1' 'bald2' 'deadcells' 'dungeons2' 'gungeon' 'icon' 'neverwinter' 'stardew' )
 
 echo "---Options---"
