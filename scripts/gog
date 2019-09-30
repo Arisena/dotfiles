@@ -3,12 +3,12 @@
 clear
 games=( 'bald1' 'bald2' 'deadcells' 'dungeons2' 'gungeon' 'icon' 'neverwinter' 'stardew' )
 
-echo "---Options---"
+echo -e "\e[92m---Options---\e[0m"
 for element in "${games[@]}"
 do
-    echo ": $element"
+    echo -e "\e[92m: \e[91m$element\e[0m"
 done
-echo "-------------"
+echo -e "\e[92m-------------\e[0m"
 
 read -p "Game: " game
 lower=${game,,}
