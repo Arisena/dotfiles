@@ -39,6 +39,8 @@ case $lower in
         /home/ari/GOG\ Games/Stardew\ Valley/start.sh
         ;;
     *)
-        echo "failed input error"
+		echo
+        echo -e "\e[31mfailed input error\e[0m"
+		echo
         ;;
 esac
