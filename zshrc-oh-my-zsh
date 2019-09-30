@@ -109,8 +109,6 @@ export LESS=-r
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cp="cp -i"                                                # Confirm before overwriting something
 alias cldown='sudo rm -r ~/Downloads && mkdir ~/Downloads'
 alias clbuild='sudo rm -r ~/build && mkdir ~/build'
@@ -129,9 +127,9 @@ alias vpnstart='sudo protonvpn-cli -m'
 alias vpnstop='sudo protonvpn-cli -d'
 alias gitu='git add . && git commit && git push'
 
-autoload -U compinit colors zcalc
-compinit -d
-colors
+#autoload -U compinit colors zcalc
+#compinit -d
+#colors
 
 setopt correct                                                  # Auto correct mistakes
 setopt extendedglob                                             # Extended globbing. Allows using regular expressions with *
