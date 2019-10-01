@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-games=( 'bald1' 'bald2' 'deadcells' 'dungeons2' 'gungeon' 'icon' 'neverwinter' 'stardew' )
+games=( '1.bald1' '2.bald2' '3.deadcells' '4.dungeons2' '5.gungeon' '6.icon' '7.neverwinter' '8.stardew' )
 
 echo -e "\e[92m---Options---\e[0m"
 for element in "${games[@]}"
@@ -14,30 +14,33 @@ read -p "Game: " game
 lower=${game,,}
 
 case $lower in
-    bald1)
+    1|bald1)
         /home/ari/GOG\ Games/Baldurs\ Gate\ Enhanced\ Edition/start.sh
         ;;
-    bald2)
+    2|bald2)
         /home/ari/GOG\ Games/Baldurs\ Gate\ 2\ Enhanced\ Edition/start.sh
         ;;
-    deadcells)
+    3|deadcells)
         /home/ari/GOG\ Games/Dead\ Cells/start.sh
         ;;
-    dungeons2)
+    4|dungeons2)
         /home/ari/GOG\ Games/Dungeons\ 2/start.sh
         ;;
-    gungeon)
+    5|gungeon)
         /home/ari/GOG\ Games/Enter\ the\ Gungeon/start.sh
         ;;
-    icon)
+    6|icon)
         /home/ari/GOG\ Games/Iconoclasts/start.sh
         ;;
-    neverwinter)
+    7|neverwinter)
         /home/ari/GOG\ Games/Neverwinter\ Nights\ Enhanced\ Edition/start.sh
         ;;
-    stardew)
+    8|stardew)
         /home/ari/GOG\ Games/Stardew\ Valley/start.sh
         ;;
+	exit)
+		exit
+		;;
     *)
 		echo
         echo -e "\e[31mfailed input error\e[0m"
