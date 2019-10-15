@@ -71,6 +71,7 @@ alias cowfort='cowthink -e Oo $(fortune -ac)'
 alias vpnstart='sudo protonvpn-cli -m'
 alias vpnstop='sudo protonvpn-cli -d'
 alias gitu='git add . && git commit && git push'
+alias vim='nvim'
 
 # Theming section
 autoload -U compinit colors zcalc
@@ -91,6 +92,7 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 ZSH_THEME="agnoster"
 # Print a greeting message when shell is started
 echo $USER@$HOST  $(uname -srm) $(lsb_release -rcs)
+acpi
 prompt agnoster
 #cowthink -e Oo $(fortune -ac)
 ##neofetch

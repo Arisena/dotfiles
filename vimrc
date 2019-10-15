@@ -36,7 +36,20 @@ set backupskip=/tmp/*
 set directory=~/.vim-tmp
 set writebackup
 
+"No line numbers in :te
+au TermOpen * setlocal nonumber norelativenumber
+"Auto enter term mode on open
+autocmd TermOpen * startinsert
+"Auto enter term mode on switch
+autocmd BufWinEnter,WinEnter term://* startinsert
+
+if has('nvim')
+	set rtp^=/usr/share/vim/vimfiles/
+endif
+
 execute pathogen#infect()
+let g:airline_powerline_fonts = 1
+let g:airline_solarized_bg='dark'
 let g:airline_powerline_fonts = 1
 set laststatus=2
 let g:airline#extensions#ale#enabled = 1
