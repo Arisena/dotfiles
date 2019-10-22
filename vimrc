@@ -1,5 +1,5 @@
 set background=dark
-et t_Co=16
+set t_Co=16
 let g:solarized_termcolors=16
 colorscheme solarized
 hi Normal guibg=NONE ctermbg=NONE

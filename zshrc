@@ -59,7 +59,6 @@ alias cldown='rm -rf ~/Downloads && mkdir ~/Downloads'
 alias clbuild='rm -rf ~/build && mkdir ~/build'
 alias pq='pacman -Q | grep --color=auto'						# Display all packages containing something in name
 alias ls='ls --color --group-directories-first --classify'
-alias term='XS=st startx'										# Start st
 alias i3='XS=i3 startx'											# Start i3
 alias gnome='XS=gnome startx'									# Start Gnome
 alias dwarf='XS=df startx'										# Start Dwarf Fortress
