@@ -58,6 +58,9 @@ case "$XS" in
 	gnome)
 		exec gnome-session
 		;;
+	cin)
+		exec cinnamon-session
+		;;
 	df)
 		exec dwarffortress
 		;;
