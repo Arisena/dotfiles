@@ -65,7 +65,7 @@ alias dwarf='XS=df startx'										# Start Dwarf Fortress
 alias cata='XS=cata startx'										# Start Cataclysm DDA
 alias volume='alsamixer'
 alias refl='sudo reflector --verbose --country US --country Canada --age 12 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
-alias upgrade='sudo bauerbill -Syu && sudo pkgfile -u'
+alias upgrade='sudo bauerbill --aur -Syu && sudo pkgfile -u'
 alias cowfort='cowthink -e Oo $(fortune -ac)'
 alias vpnstart='sudo protonvpn-cli -m'
 alias vpnstop='sudo protonvpn-cli -d'
