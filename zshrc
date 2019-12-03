@@ -190,7 +190,6 @@ case $(basename "$(cat "/proc/$PPID/comm")") in
     alias x='startx ~/.xinitrc'      # Type name of desired desktop after x, xinitrc is configured for it
 	export CALLED_FROM_START_APP=yes
 	PROMPT="%B%{$fg[white]%}%(4~|%-1~/.../%2~|%~)%u%b>%{$fg[blue]%}>%B%(?.%{$fg[white]%}.%{$fg[red]%})>%{$reset_color%}%b "
-	launch.sh
     ;;
   *)
         RPROMPT='$(git_prompt_string)'
