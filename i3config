@@ -208,7 +208,7 @@ gaps top 37
 
 #Starts when i3 is opened
 exec wallpaper
-#exec numlockx
+exec numlockx
 exec glipper
 exec pasystray
 #exec gnome-encfs-manager
