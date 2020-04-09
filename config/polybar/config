@@ -58,7 +58,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
 modules-left = i3 keyState vpncheck updates
-;modules-center = mpdRestart mpdPrev mpdBackward mpd mpdForward mpdNext mpdToggle
+modules-center = mpdRestart mpdPrev mpdBackward mpd mpdForward mpdNext mpdToggle
 modules-right = battery volControl pulseaudio filesystem cpu memory date
 
 tray-position = right
