@@ -1,7 +1,7 @@
 set background=dark
 set t_Co=16
 let g:solarized_termcolors=16
-colorscheme solarized
+"colorscheme solarized
 hi Normal guibg=NONE ctermbg=NONE
 
 syntax on
@@ -37,21 +37,21 @@ set directory=~/.vim-tmp
 set writebackup
 
 "No line numbers in :te
-au TermOpen * setlocal nonumber norelativenumber
+"au TermOpen * setlocal nonumber norelativenumber
 "Auto enter term mode on open
-autocmd TermOpen * startinsert
+"autocmd TermOpen * startinsert
 "Auto enter term mode on switch
-autocmd BufWinEnter,WinEnter term://* startinsert
+"autocmd BufWinEnter,WinEnter term://* startinsert
 
-if has('nvim')
-	set rtp^=/usr/share/vim/vimfiles/
-endif
+"if has('nvim')
+"	set rtp^=/usr/share/vim/vimfiles/
+"endif
 
-execute pathogen#infect()
-let g:airline_powerline_fonts = 1
-let g:airline_solarized_bg='dark'
-let g:airline_powerline_fonts = 1
-set laststatus=2
-let g:airline#extensions#ale#enabled = 1
-set updatetime=100
-let g:indent_guides_enable_on_vim_startup = 1
+"execute pathogen#infect()
+"let g:airline_powerline_fonts = 1
+"let g:airline_solarized_bg='dark'
+"let g:airline_powerline_fonts = 1
+"set laststatus=2
+"let g:airline#extensions#ale#enabled = 1
+"set updatetime=100
+"let g:indent_guides_enable_on_vim_startup = 1
